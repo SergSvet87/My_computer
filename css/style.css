@@ -39,7 +39,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  color: black;
+  color: #FFFFFF;
+}
+
+main{
+  background: url('../images/png/main-screen-last-line-bgc.png');
 }
 
 /* Логотип и меню навигации Начало */
@@ -67,7 +71,7 @@ header {
 .wrapper {
   max-width: 1300px;
   width: 100%;
-  margin: 0 0 0 192px;
+  margin: 0 0 0 312px;
 }
 
 /* Логотип начало */
@@ -153,9 +157,7 @@ header {
   position: absolute;
   width: 100%;
   height: 180px;
-  left: 299px;
-  top: 306px;
-  margin-right: 270px;
+  margin-top: 270px;
 }
 
 .intro_title_main {
@@ -212,6 +214,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .statistics_bt {
@@ -230,8 +233,9 @@ header {
 .statistics_block_text {
   width: 251px;
   height: 58px;
-  margin-left: 81px;
-  justify-content: center;
+  margin: 0 81px;
+  box-sizing: border-box;
+  justify-content: space-between;
   align-items: center;
   font-weight: normal;
   font-size: 16px;
@@ -251,7 +255,7 @@ header {
   font-size: 16px;
   line-height: 150%;
   color: #FFFFFF;
-  margin-left: 101px;
+  margin-left: 81px;
 }
 
 .statistics_text_2_count {
@@ -259,13 +263,85 @@ header {
   font-size: 16px;
   line-height: 150%;
   color: #FFFFFF;
-  margin-left: 30px;
+  margin-left: 11px;
+}
+
+.statistics_picture_text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+.statistics_picture_count {
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.statistics_block_picture-img{
+  text-align: justify;
+}
+
+.statistics_block_picture-img-report1 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+.statistics_block_picture-img2{
+  background: url('../images/png/Rectangle5.png');
+  z-index: 100;
+}
+
+.statistics_block_picture-img-report2 {  
+  margin-left: 613px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 0.4;
 }
 
 /* Статистика конец */
+.what-doing {
+  background: url('../images/png/main-screen-last-line-bgc.png');
+  margin-bottom: 200px;
+}
+
+.what-doing_wrapper {
+  width: 100%;
+  height: 542px;
+  display: flex;
+  justify-content: right;
+}
+
+.what-doing_block_picture {
+  margin-right: 134px;
+}
+
+.what-doing_block-text {
+  z-index: 20;
+}
+
 .what-doing_block-text_title {
+  margin-top: 69px;
+  margin-bottom: 45px;
   font-weight: bold;
   font-size: 48px;
   line-height: 140%;
+  color: #FFFFFF;
+}
+
+.what-doing_block-text_description {
+  margin-right: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
   color: #FFFFFF;
 }
