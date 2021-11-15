@@ -42,7 +42,7 @@ body {
   color: #FFFFFF;
 }
 
-main{
+main {
   background: url('../images/png/main-screen-last-line-bgc.png');
 }
 
@@ -72,6 +72,7 @@ header {
   max-width: 1300px;
   width: 100%;
   margin: 0 0 0 312px;
+
 }
 
 /* Логотип начало */
@@ -164,7 +165,6 @@ header {
   font-weight: bold;
   font-size: 64px;
   line-height: 140%;
-  color: #FFFFFF;
 }
 
 .intro_count {
@@ -186,7 +186,6 @@ header {
   font-weight: bold;
   font-size: 36px;
   line-height: 140%;
-  color: #FFFFFF;
 }
 
 .text_item {
@@ -194,7 +193,6 @@ header {
   font-size: 16px;
   line-height: 140%;
   text-align: center;
-  color: #FFFFFF;
   opacity: 0.4;
 }
 
@@ -240,7 +238,6 @@ header {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  color: #FFFFFF;
   opacity: 0.4;
 }
 
@@ -254,23 +251,22 @@ header {
   font-weight: bold;
   font-size: 16px;
   line-height: 150%;
+  margin-left: 91px;
   color: #FFFFFF;
-  margin-left: 81px;
 }
 
 .statistics_text_2_count {
   font-weight: bold;
   font-size: 16px;
   line-height: 150%;
+  margin-left: 20px;
   color: #FFFFFF;
-  margin-left: 11px;
 }
 
 .statistics_picture_text {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  color: #FFFFFF;
   opacity: 0.4;
 }
 
@@ -282,29 +278,32 @@ header {
   color: #FFFFFF;
 }
 
-.statistics_block_picture-img{
+.statistics_block_picture-img {
   text-align: justify;
+}
+
+.statistics_block_picture-img2{
+  position: absolute;
+  top: 1013px;
 }
 
 .statistics_block_picture-img-report1 {
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  color: #FFFFFF;
   opacity: 0.4;
 }
 
-.statistics_block_picture-img2{
+.statistics_block_picture-img2 {
   background: url('../images/png/Rectangle5.png');
   z-index: 100;
 }
 
-.statistics_block_picture-img-report2 {  
+.statistics_block_picture-img-report2 {
   margin-left: 613px;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
-  color: #FFFFFF;
   opacity: 0.4;
 }
 
@@ -335,7 +334,6 @@ header {
   font-weight: bold;
   font-size: 48px;
   line-height: 140%;
-  color: #FFFFFF;
 }
 
 .what-doing_block-text_description {
@@ -343,5 +341,148 @@ header {
   font-weight: normal;
   font-size: 16px;
   line-height: 160%;
-  color: #FFFFFF;
+}
+
+
+.fast-start_wrapper {
+  margin-left: 20px;
+  margin-bottom: 200px;
+}
+
+.fast-start_block_picture {
+  margin: 0 20px 20px 11px;
+  display: flex;
+
+}
+
+.fast-start_block_title {
+  margin-top: 31px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+}
+
+.fast-start_block-text {
+  width: 411px;
+  height: 52px;
+  margin-bottom: 80px;
+}
+
+.fast-start_block-text_description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 0.5;
+}
+
+.fast-start_block-total {
+  width: 1296px;
+  height: 273px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.fast-start_block-total_item-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+}
+
+.fast-start_block-total_item-img {
+  width: 25%;
+  justify-content: baseline;
+}
+
+.fast-start_block-total_item-img1 {
+  margin: 20px 0 35px 0;
+}
+
+.fast-start_block-total_item-img2 {
+  margin: 30px 0 45px 0;
+}
+
+.fast-start_block-total_item-img3 {
+  margin: 45px 0 60px 0;
+}
+
+.fast-start_block-total_item-img4 {
+  margin: 55px 0 70px 0;
+}
+
+.fast-start_block-total_item-description {
+  margin-right: 18px;
+  width: 306px;
+  height: 88px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  opacity: 0.5;
+}
+
+.fast-start_block-total_item-description:last-child {
+  margin-right: 0;
+}
+
+
+
+.profession {
+  margin-bottom: 200px;
+}
+
+.profession_title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.profession_training {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profession_training_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profession_training_item img{
+  justify-content: space-between;
+}
+
+.profession_training_title {
+  width: 416px;
+  height: 68px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  margin-top: 60px 
+  margin-right: 24px;
+  margin-bottom: 30px;
+}
+
+.profession_training_title:last-child{
+  margin-right: 0;
+}
+
+.profession_training_text {
+  width: 358px;
+  height: 104px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  opacity: 0.8;
+  margin-right: 82px;
+}
+
+.profession_training_text:last-child{
+  margin-right: 0;
 }
