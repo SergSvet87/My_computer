@@ -282,7 +282,7 @@ header {
   text-align: justify;
 }
 
-.statistics_block_picture-img2{
+.statistics_block_picture-img2 {
   position: absolute;
   top: 1013px;
 }
@@ -430,6 +430,8 @@ header {
 
 .profession {
   margin-bottom: 200px;
+  width: 1296px;
+  height: 549px;
 }
 
 .profession_title {
@@ -452,7 +454,7 @@ header {
   align-items: center;
 }
 
-.profession_training_item img{
+.profession_training_item img {
   justify-content: space-between;
 }
 
@@ -463,12 +465,12 @@ header {
   font-size: 24px;
   line-height: 140%;
   text-align: center;
-  margin-top: 60px 
+  margin-top: 60px;
   margin-right: 24px;
   margin-bottom: 30px;
 }
 
-.profession_training_title:last-child{
+.profession_training_title:last-child {
   margin-right: 0;
 }
 
@@ -481,8 +483,24 @@ header {
   text-align: center;
   opacity: 0.8;
   margin-right: 82px;
+  margin-left: 29px;
 }
 
-.profession_training_text:last-child{
-  margin-right: 0;
+.profession_training_text:last-child {
+  margin-right: 29px;
+}
+
+.profession_training-certificate_img {
+  margin-right: 158px;
+  margin-left: 170px;
+}
+
+.profession_training-practic_img {
+  margin-right: 170px;
+  margin-left: 158px;
+}
+
+.profession_training-equipment_img{
+  margin-right: 170px;
+  margin-left: 170px;
 }
