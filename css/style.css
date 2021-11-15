@@ -46,6 +46,10 @@ main {
   background: url('../images/png/main-screen-last-line-bgc.png');
 }
 
+footer {
+  background: url('../images/png/main-screen-last-line-bgc.png');
+}
+
 /* Логотип и меню навигации Начало */
 
 header {
@@ -500,7 +504,71 @@ header {
   margin-left: 158px;
 }
 
-.profession_training-equipment_img{
+.profession_training-equipment_img {
   margin-right: 170px;
   margin-left: 170px;
+}
+
+
+
+
+
+.footer_wrapper {
+  width: 547px;
+  height: 419px;
+  margin: 0 auto;
+}
+
+.footer_title {
+  width: 100%;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer_text {
+  width: 411px;
+  height: 52px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 60px;
+}
+
+.footer_mail{
+  width: 492px;
+  height: 44px;
+  margin-bottom: 40px;
+}
+
+.footer_mail_btn{
+  position: absolute;
+}
+
+.footer_soc-network{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 106px;
+}
+
+.footer_soc-network-vk-img{
+  position: absolute;
+  padding-right: 20px;
+}
+
+.footer_soc-network-yt-img{
+  position: absolute;
+}
+
+.footer_soc-network-fb-img{
+  position: absolute;
+}
+
+.footer_soc-network-ig-img{
+  position: absolute;
 }
